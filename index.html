@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <main>
         <section id="Login">
             <div id="imagem">
-
+                <img src="imagens/note.jpg" alt="Login">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
                 <form action="login.php" method="post">
-                    
+                    <p>
+                        <label for="iemail"><span id="person" class="material-symbols-outlined">
+                            person
+                            </span></label>
+                        <input type="email" id="iemail" required>
+                    </p>
+                    <p>
+                        <label for="isenha"><span id="key" class="material-symbols-outlined">
+                            key
+                            </span></label>
+                        <input type="password" id="isenha" required min="8">
+                    </p>
                 </form>
+                <input type="submit" value="Enviar"> <br>
+                <input type="reset" value="Esqueci a senha"> <span id="mail" class="material-symbols-outlined">
+                    mail
+                    </span>
             </div>
         </section>
     </main>
