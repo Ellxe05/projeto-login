@@ -17,6 +17,17 @@
     body {
         background-image: linear-gradient(to top, rgba(46, 105, 28, 0.37), rgb(37, 37, 37));
     }
+    .campo > input {
+        background-color: rgb(27, 114, 27);
+        font-size: 1em;
+        width: 90%;
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        transform: translateY(-12px);
+
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -33,6 +44,17 @@
     }
     body {
         background-image: linear-gradient(to top, rgba(46, 105, 28, 0.37), rgb(37, 37, 37));
+    }
+    .campo > input {
+        background-color: rgb(27, 114, 27);
+        font-size: 1em;
+        width: 90%;
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        transform: translateY(-12px);
+
     }
 }
 #formulario > h1 {
