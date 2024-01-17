@@ -120,3 +120,7 @@ form > .campo {
     background-color: white;
     border: 0px;
 }
+input::placeholder {
+    color: white;
+
+}
